@@ -22,6 +22,12 @@ https://github.com/kao1982/contact-test
 ```bash
 cp src/.env.example src/.env
 
+.env 作成後、ファイルを開いてデータベースの設定を以下のように環境に合わせて書き換えてください。
+DB_HOST=mysql
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
+DB_PASSWORD=laravel_pass
+
 2. Dockerコンテナのビルドと起動
 コンテナを構築し、バックグラウンドで起動します。
 
